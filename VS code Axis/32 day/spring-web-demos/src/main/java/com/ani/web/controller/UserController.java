@@ -18,9 +18,9 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
-import com.ani.web.config.service.UserService;
 import com.ani.web.entity.User;
 import com.ani.web.exception.UserNotFoundException;
+import com.ani.web.service.UserService;
 import com.ani.web.validation.UserValidator;
 
 @RequestMapping("/user")
@@ -110,5 +110,3 @@ public class UserController {
         return "fail";
     }
 }
-
-

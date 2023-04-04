@@ -1,4 +1,4 @@
-package com.ani.web.config.service;
+package com.ani.web.service;
 
 import java.util.Arrays;
 import java.util.List;
@@ -35,3 +35,4 @@ public class UserService {
     }
     
 }
+

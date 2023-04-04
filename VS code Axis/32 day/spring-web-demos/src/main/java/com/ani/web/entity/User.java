@@ -2,6 +2,7 @@ package com.ani.web.entity;
 
 public class User {
     
+     
     private Integer id;
     private String name;
     private String mobile;
@@ -38,4 +39,4 @@ public class User {
     public void setEmail(String email) {
         this.email = email;
     }
-}  
+}
