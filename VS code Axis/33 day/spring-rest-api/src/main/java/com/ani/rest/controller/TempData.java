@@ -12,5 +12,6 @@ import lombok.ToString;
 @Setter
 @Getter
 public class TempData {
+    
     private Integer temp;
 }
