@@ -27,7 +27,7 @@ public class Converter {
 
         Marshaller marshaller = context.createMarshaller();
         marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
-        marshaller.marshal(book, System.out);
+        marshaller.marshal(book,System.out);
     }
 
     public Book toDomain(File xml) throws JAXBException {
