@@ -14,6 +14,9 @@ connection.connect(err => {
 
     console.log(`✅ Connected Successfully`)
 
+    connection.query("", (err, result)=>{})
+
+
     connection.query("CREATE DATABASE nodejsdb", (err, result) => {
         if (err) {
             console.log(`❌ Problem In Connectivity`)
